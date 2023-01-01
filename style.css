@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.nav a {
+    position: relative;
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 500;
+    font-size: 1em;
+    top: 9px;
+    padding-left: 30px;
+}
+
+.nav a:hover {
+    color: blueviolet;
+}
+
+.main {
+    padding: 100px 200px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/code2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main .div_1 {
+    margin-left: -100px;
+}
+
+.main h2 {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.main h2 span {
+    color: #adcbee;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.main .main_btn {
+    color: white;
+    background-color: #2146ac;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main .main_btn:hover {
+    background-color: #0d2979;
+    transform: scale(1.1);
+}
+
+.div_2 a {
+    color: white;
+    font-size: 1.7em;
+    margin-right: 30px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about {
+    margin-top: 50px;
+    height: 250px;
+}
+
+.about p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0px 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    color: #114df3;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info h3 {
+    color: #2146ac;
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.info p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.cards {
+    height: 500px;
+}
+
+.project {
+    background-color: #000010;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.project .content {
+    margin-top: 30px;
+}
+
+.project .Pcard {
+    background-color: white;
+    border: solid white 1px;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.Pcard:hover {
+    transform: scale(1.1);
+}
+
+.Pimage img {
+    width: 100%;
+    height: 40%;
+}
+
+.Pcard:hover .Pimage {
+    opacity: 0.9;
+}
+
+.Pcategory {
+    font-size: 0.8em;
+    color: black;
+}
+
+.Ptitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.more_ditales {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more_ditales:hover {
+    color: blueviolet;
+}
+
+.Pinfo {
+    padding: 1em;
+}
+
+.contact .content .card .icons {
+    font-size: 5em;
+    text-align: center;
+}
+
+
+.contact .info h3 {
+    color: #000010;
+}
+
+.contact .info p {
+    font-size: 1.3em;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: black;
+    width: 100%;
+    color: #f0f0f0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p .span {
+    color: #0d2979;
+}
+
+footer .Finfo {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+footer .Finfo span {
+    color: #114df3;
+}
+
+@media(max-width:1025px) {
+
+    header {
+        padding: 12px 20px;
+    }
+
+    .nav a {
+        padding-left: 10px;
+    }
+
+    .cards {
+        margin-bottom: 800px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main h3 {
+        font-size: 1.6;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .main_btn {
+        padding: 10px;
+    }
+
+    footer .div_2 {
+        display: flex;
+        flex-wrap: nowrap;
+        font-size: 0.7em;
+
+    }
+
+    .main .div_2 {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main .content h2 {
+        font-size: 0.8em;
+    }
+
+    .main .content h3 {
+        font-size: 1.4em;
+    }
+
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .cards {
+        margin-bottom: 600px;
+    }
+}
+
+@media (max-width:814px) {
+    .about {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width:516px) {
+    .about p {
+        font-size: small;
+    }
+}
